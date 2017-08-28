@@ -26,3 +26,11 @@ docker run --name web --ip=172.18.0.11 --net=mynet -P -p 3000:3000 --rm -it -- p
 ```
 
 Für Docker for Mac musste ich immer wieder beim start das -p port:port damit ich via FireFox http://localhost:port auf den Serverice komme.
+
+## Tag 1.0
+In diesem Tag ist der Inital Code von der Webapplication dieser ist inkl. Dockerfiles das Netwerk muss vorgängig erstellt werden.
+
+## Tag 2.0
+In diesem Tag wurde das Gzip eingeführt es wurde ein eigener Handler derstellt je nach dem Browser ob dieser gzip unstützt wird der entsprechende.
+
+
