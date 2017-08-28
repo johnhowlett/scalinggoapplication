@@ -10,7 +10,7 @@ docker network create --subnet=172.18.0.0/16 mynet
 ```
 docker image dataservice
 ```
-docer build -f Docker-dataservice -t ps/dataservice .
+docker build -f Docker-dataservice -t ps/dataservice .
 ```
 docker image web
 ```
